@@ -26,15 +26,27 @@ section #bio-photo-content {
 section p {
   font-weight: ;
   line-height: 1.4;
+/*   padding: -1px;
+  float: top;
+  text-aligh: left; */
 }
 
 img {
-  float: left;
+/*   float: left; */
   margin; ;
-  padding: 2px;
-  margin-right: 25px;
+/*   padding: 2px; */
+/*   margin-right: 25px; */
   border-style: double;
   border-width: thick;
+}
+
+figure {
+  float: left;
+  margin-bottom: -2px;
+}
+
+figcitation {
+/*   width: ; */
 }
 
 #sidebar {
@@ -53,6 +65,16 @@ img {
 /*   width: 250px; */
 }
 
+#sidebar-1 {
+  float: right;
+  width: 400px;
+/*   background: pink; */
+  margin-left: 30px; /* margin is the space outside the box */
+  margin-right: 60px;
+  padding: 10px; /* padding is the space inside the box */
+  line-height: 1.4;
+}
+
 #sidebar-2 {
   float: right;
   widht: 400px;
@@ -64,16 +86,6 @@ img {
 /*   margin-right: 300px; */
 /*   margin-left: 280px; */
 /*   padding: 10px; */
-}
-
-#sidebar-1 {
-  float: right;
-  width: 400px;
-/*   background: pink; */
-  margin-left: 30px; /* margin is the space outside the box */
-  margin-right: 60px;
-  padding: 10px; /* padding is the space inside the box */
-  line-height: 1.4;
 }
 
 ul.poem {
@@ -113,8 +125,6 @@ figure {
   text-align: bottom;
 } */
 
-/* top-nav --------------------------------------------------------------------------------- */ 
-
 .top-nav {
   list-style-type: none;
   margin-bottom: ;
@@ -124,35 +134,34 @@ figure {
 }
 
 .top-nav {
-    list-style-type: none;
-    margin: 10;
-    padding: 10;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .top-nav li {
-    float: left;
-    border-right: 1px solid #bbb;
+  float: left;
+  border-right: 1px solid #bbb;
 }
 
 .top-nav li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .top-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .top-nav li a:hover {
-    background-color: #111;
+  background-color: #111;
 /*     background-color: rgba(255, 0, 0, 0.7); */
-    background-color: #4CAF50;
+  background-color: #4CAF50;
 }
 
 .top-nav .active {
@@ -160,8 +169,6 @@ figure {
 /*   background-color: rgba(0, 0, 255, 0.5); */
 }
 
-/* bottom-nav ------------------------------------------------------------------------------ */ 
-
 .bottom-nav {
   list-style-type: none;
   margin-bottom: ;
@@ -171,37 +178,46 @@ figure {
 }
 
 .bottom-nav {
-    list-style-type: none;
-    margin: 10;
-    padding: 10;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .bottom-nav li {
-    float: left;
-    border-right: 1px solid #bbb;
+  float: left;
+  border-right: 1px solid #bbb;
 }
 
 .bottom-nav li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .bottom-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .bottom-nav li a:hover {
-    background-color: #111;
+  background-color: #111;
 /*     background-color: rgba(255, 0, 0, 0.7); */
-    background-color: #4CAF50;
+  background-color: #4CAF50;
 }
 
 .bottom-nav .active {
   background-color: #504caf;
 /*   background-color: rgba(0, 0, 255, 0.5); */
 }
+
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
