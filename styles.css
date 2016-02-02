@@ -4,6 +4,10 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-seri;
 }
 
+h2 .{
+  text-align: center;
+}
+
 body {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-seri;
   background-image: url('marbet.jpg');
@@ -103,6 +107,11 @@ ul.poem {
 #content-3 p {
   margin-left: 30px;
   margin-right: 400px;
+}
+
+h3 {
+  margin-left: 290px;
+  margin-top: 50px;
 }
 
 table {
