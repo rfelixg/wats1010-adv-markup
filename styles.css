@@ -1,5 +1,7 @@
 /* Styles for the Advanced Markup assignment. */
 
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
 h1,h2,h3,h4,h5,h6 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-seri;
 }
@@ -10,9 +12,8 @@ h2 .{
 
 body {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-seri;
-  background-image: url('marbet.jpg');
-  background-size: cover; */
-/*   background-repeat: no-repeat; */
+  background-size: cover; 
+  /*background-image: url('marbet.jpg');*/
 }
 
 .active {
@@ -20,8 +21,6 @@ body {
 }
 
 section #bio-photo-content {
-/*   border-style: double; */
-/*   border-width: thick; */
   margin-right: 300px;
   margin-left: 7px;
   padding-left: 10px;
@@ -30,16 +29,10 @@ section #bio-photo-content {
 section p {
   font-weight: ;
   line-height: 1.4;
-/*   padding: -1px;
-  float: top;
-  text-aligh: left; */
 }
 
 img {
-/*   float: left; */
   margin; ;
-/*   padding: 2px; */
-/*   margin-right: 25px; */
   border-style: double;
   border-width: thick;
 }
@@ -49,30 +42,20 @@ figure {
   margin-bottom: -2px;
 }
 
-figcitation {
-/*   width: ; */
-}
-
 #sidebar {
   float: right;
   width: 400px;
-/*   background: pink; */
   margin-left: 30px; /* margin is the space outside the box */
   padding: 10px; /* padding is the space inside the box */
   line-height: 1.4;
-  
-  /* or use absolute... */
-/*   position: absolute;  */
-            /* absolute positioned will make the div always stay there and move with the page. However, floating is used more often */ 
-/*   top: 10px; */
-/*   right: 35px; */
-/*   width: 250px; */
+  or use absolute... 
+  position: absolute;  
+  /* absolute positioned will make the div always stay there and move with the page. However, floating is used more often */ 
 }
 
 #sidebar-1 {
   float: right;
   width: 400px;
-/*   background: pink; */
   margin-left: 30px; /* margin is the space outside the box */
   margin-right: 60px;
   padding: 10px; /* padding is the space inside the box */
@@ -81,15 +64,10 @@ figcitation {
 
 #sidebar-2 {
   float: right;
-  widht: 400px;
+  width: 400px;
   margin-left: 50px;
   padding: 6px;
   line-height: 1.4;
-/*   border-style: double; */
-/*   border-width: thick; */
-/*   margin-right: 300px; */
-/*   margin-left: 280px; */
-/*   padding: 10px; */
 }
 
 ul.poem {
@@ -169,13 +147,11 @@ figure {
 
 .top-nav li a:hover {
   background-color: #111;
-/*     background-color: rgba(255, 0, 0, 0.7); */
   background-color: #4CAF50;
 }
 
 .top-nav .active {
   background-color: #504caf;
-/*   background-color: rgba(0, 0, 255, 0.5); */
 }
 
 .bottom-nav {
@@ -213,13 +189,11 @@ figure {
 
 .bottom-nav li a:hover {
   background-color: #111;
-/*     background-color: rgba(255, 0, 0, 0.7); */
   background-color: #4CAF50;
 }
 
 .bottom-nav .active {
   background-color: #504caf;
-/*   background-color: rgba(0, 0, 255, 0.5); */
 }
 
 #share-buttons img {
